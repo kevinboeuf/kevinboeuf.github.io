@@ -3,7 +3,10 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Kevin Boeuf</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="jquery/jquery-ui.css">
+		<link rel="stylesheet" type="text/css" href="mystyle.css">
+		<script type="text/javascript" src="jquery/external/jquery/jquery.js"></script>
+		<script type="text/javascript" src="jquery/jquery-ui.min.js"></script>
 	</head>
 
 	<!-- Hello ! Je vois que mon code vous intéresse ! Je vais vous aider à le comprendre en vous expliquant comment il est structuré avec grand plaisir ! (: Vous êtes pret ? On va y aller étape par étape. -->
@@ -46,11 +49,13 @@
 					</div>
 				</div>
 				<p class="text">
-					Je suis un ingénieur, apprenti chez Orange et scolarisé à l'ENSSAT de Lannion. J'ai eu l'opportunité d'accroitre mes connaissances du monde de l'informatique, domaine qui m'intéresse depuis longtemps.</br></br>
-
-					Ainsi, lors de mes années de lycée, en filière scientifique avec spécialité mathématiques, j'ai décidé de m'initier à la programmation informatique avec un ami. M'étant vite rendu compte que ce domaine me plaisait, j'ai décidé de m'orienter vers l'IUT informatique de Lannion, ayant pour objectif d'acquérir un maximum de connaissance dans ce vaste domaine.</br></br>
-
-					Enfin, suite à l'obtention de mon diplôme, je me suis orienté vers une formation en apprentissage, à l'ENSSAT, dans le but de pouvoir méler la pratique sur le terrain avec la théorie acquise au cours des précédentes années, notamment sur le développement Android et la gestion de projet.</br></br>
+					Je suis un ingénieur, apprenti chez Orange et scolarisé à l'ENSSAT de Lannion. J'ai eu l'opportunité d'accroitre mes connaissances du monde de l'informatique, domaine qui m'intéresse depuis longtemps.
+				</p>
+				<p class="text">
+					Ainsi, lors de mes années de lycée, en filière scientifique avec spécialité mathématiques, j'ai décidé de m'initier à la programmation informatique avec un ami. M'étant vite rendu compte que ce domaine me plaisait, j'ai décidé de m'orienter vers l'IUT informatique de Lannion, ayant pour objectif d'acquérir un maximum de connaissance dans ce vaste domaine.
+				</p>
+				<p class="text">
+					Enfin, suite à l'obtention de mon diplôme, je me suis orienté vers une formation en apprentissage, à l'ENSSAT, dans le but de pouvoir méler la pratique sur le terrain avec la théorie acquise au cours des précédentes années, notamment sur le développement Android et la gestion de projet.
 				</p>
 				</div>
 			</div>
@@ -63,9 +68,10 @@
 					</div>
 				</div>
 				<p class="text">
-					Lors de mes trois années d’apprentissage chez Orange, j’ai eu l’opportunité d’améliorer mes compétences en développement d’applications Android. En effet, j’ai contribué au développement d’une application intelligente, apprenant des différents usages des utilisateurs sur un device, pour ensuite leur suggérer les meilleures applications selon le contexte dans lequel ils se trouvent (localisation, connexions actives, horaire...).</br></br>
-
-					De plus, j’ai également eu le rôle de chef de projet d’une solution de gestion de flotte mobile, à travers la mise en place de trois portails web. Concrètement, j’ai assuré la  synchronisation entre les personnes du marketing, l’équipe de développeurs ainsi que celle de la qualification, le tout en respectant bien entendu les délais, les coûts et les besoins exprimés initialement. Ensuite, j’ai également participé à la conception et à la spécification du produit. En parallèle, j’ai aussi supervisé les tests ainsi que la qualification.</br></br>
+					Lors de mes trois années d’apprentissage chez Orange, j’ai eu l’opportunité d’améliorer mes compétences en développement d’applications Android. En effet, j’ai contribué au développement d’une application intelligente, apprenant des différents usages des utilisateurs sur un device, pour ensuite leur suggérer les meilleures applications selon le contexte dans lequel ils se trouvent (localisation, connexions actives, horaire...).
+				</p>
+				<p class="text">
+					De plus, j’ai également eu le rôle de chef de projet d’une solution de gestion de flotte mobile, à travers la mise en place de trois portails web. Concrètement, j’ai assuré la  synchronisation entre les personnes du marketing, l’équipe de développeurs ainsi que celle de la qualification, le tout en respectant bien entendu les délais, les coûts et les besoins exprimés initialement. Ensuite, j’ai également participé à la conception et à la spécification du produit. En parallèle, j’ai aussi supervisé les tests ainsi que la qualification.
 				</p>
 			</div>
 		</section>
@@ -84,7 +90,7 @@
 					</div>
 				</div>
 				<ul class="skill-list">
-					<li class="skill">
+					<li class="skill" title="Lors de mon apprentissage, j'ai pu contribuer au développement d'une application Android existante. Il s'agissait d'un agent analytique capable d'apprendre des différents usages faits à partir des devices où il était déployé dans le but d'en dégager des recommandations. Je suis dans un premier temps intervenu pour mettre en place une brique fonctionnelle permettant de fournir ces connaissances à d'autres applications d'Orange, afin de leurs donner une dimension intelligente. De plus, qui dit collecte de données dit respect de la vie privée. C'est pour mettre en place un widget permettant de désactiver la collecte de chaque élément individuellement que je suis intervenu.">
 						<div class="skill">
 							<div class="skill-level text" id="android">Android</div>
 						</div>
@@ -197,4 +203,11 @@
 			<a title="Facebook" href="https://www.facebook.com/kevin.boeuf.73"><img src="facebookPicture.png" alt="facebook" class="footer-picture"/></a>
 			<a title="Mail" href="mailto:kboeuf@gmail.com"><img src="mailPicture.png" alt="mail" class="footer-picture" id="mailingLink"/></a>
 		</div>
+	</footer>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+		  $(document).tooltip();
+		});
+	</script>
 </html> 
