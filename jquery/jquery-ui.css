@@ -90,9 +90,10 @@
 	padding: 8px;
 	position: absolute;
 	z-index: 9999;
-	max-width: 300px;
+	max-width: 380px;
 	-webkit-box-shadow: 0 0 5px #aaa;
 	box-shadow: 0 0 5px #aaa;
+	text-align: justify;
 }
 body .ui-tooltip {
 	border-width: 2px;
