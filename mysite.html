@@ -1,0 +1,213 @@
+ <!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Kevin Boeuf</title>
+		<link rel="stylesheet" href="jquery/jquery-ui.css">
+		<link rel="stylesheet" type="text/css" href="mystyle.css">
+		<script type="text/javascript" src="jquery/external/jquery/jquery.js"></script>
+		<script type="text/javascript" src="jquery/jquery-ui.min.js"></script>
+	</head>
+
+	<!-- Hello ! Je vois que mon code vous intéresse ! Je vais vous aider à le comprendre en vous expliquant comment il est structuré avec grand plaisir ! (: Vous êtes pret ? On va y aller étape par étape. -->
+
+	<!-- Ici on a le header. Depuis HTML5, les bonnes pratiques consistent à l'utiliser pour introduire un article, une section voire une page en entier. C'est donc ce que j'ai fait ici pour introduire la globalité de ma page en résumant ma situation. -->
+	<header class="header">
+		<div class="header-baseline">
+			<div id="header-summary">
+				<img src="profil.png" alt="profilePhoto" id="header-photo">
+				<div id="header-text-summary"/>			
+					<p id="name">KEVIN BOEUF</p>
+					<p class="text header-text">Ingénieur Informatique et Multimédia, disponible en octobre 2016</p>
+				</div>
+			</div>
+		</div>
+		<!-- La balise nav a également fait son apparition avec HTML5. Elle permet de mettre des liens pour naviguer directement au sein du document, voire vers d'autres pages. -->
+		<nav class="header-links text header-text">
+			<ul>
+				<li><a href="#qui">Qui suis-je ?</a></li>
+				<li><a href="#competences">Que sais-je faire ?</a></li>
+				<li><a href="#recherche">Ce que je recherche</a></li>
+				<li><a title="Mail" href="mailto:kboeuf@gmail.com">Contactez moi !</a></li>
+			</ul>
+		</nav>
+	</header>
+	<body>
+
+		<!-- Comme je le disais, le header est aussi utilisé comme en-tête de section. Cette section là me présente. -->
+		<header class="content-head">
+			<h1 id="qui">Qui suis-je ?</h1>
+		</header>
+
+		<!-- La balise de section est aussi apparue avec HTML5 (héhé oui, il y en a des nouvelles choses intéressantes ! :-D). Pour faire simple, l'intéret d'une section, d'après les bonnes pratiques encore une fois, consiste à regrouper les éléments d'un même sujet dedans. C'est pour cette raison que j'ai utilisé des sections pour chacune des parties principales de mon site. On a donc une section pour me décrire, une pour mes compétences et une dernière pour ma recherche. --> 
+		<section>
+			<div class="learning-group">
+				<div class="content-title">
+					<div class="separator">
+						<img src="cursusPicture.png" alt="cursus-picture" id="cursusPicture" class="title-picture">
+						<h2>Mon cursus</h2>
+					</div>
+				</div>
+				<p class="text">
+					Je suis un ingénieur, apprenti chez Orange et scolarisé à l'ENSSAT de Lannion. J'ai eu l'opportunité d'accroitre mes connaissances du monde de l'informatique, domaine qui m'intéresse depuis longtemps.
+				</p>
+				<p class="text">
+					Ainsi, lors de mes années de lycée, en filière scientifique avec spécialité mathématiques, j'ai décidé de m'initier à la programmation informatique avec un ami. M'étant vite rendu compte que ce domaine me plaisait, j'ai décidé de m'orienter vers l'IUT informatique de Lannion, ayant pour objectif d'acquérir un maximum de connaissance dans ce vaste domaine.
+				</p>
+				<p class="text">
+					Enfin, suite à l'obtention de mon diplôme, je me suis orienté vers une formation en apprentissage, à l'ENSSAT, dans le but de pouvoir méler la pratique sur le terrain avec la théorie acquise au cours des précédentes années, notamment sur le développement Android et la gestion de projet.
+				</p>
+				</div>
+			</div>
+
+			<div class="learning-group">
+				<div class="content-title">
+					<div class="separator">
+						<img src="learningPicture.png" alt="learning-picture" id="learningPicture" class="title-picture">
+						<h2>Mon apprentissage</h2>
+					</div>
+				</div>
+				<p class="text">
+					Lors de mes trois années d’apprentissage chez Orange, j’ai eu l’opportunité d’améliorer mes compétences en développement d’applications Android. En effet, j’ai contribué au développement d’une application intelligente, apprenant des différents usages des utilisateurs sur un device, pour ensuite leur suggérer les meilleures applications selon le contexte dans lequel ils se trouvent (localisation, connexions actives, horaire...).
+				</p>
+				<p class="text">
+					De plus, j’ai également eu le rôle de chef de projet d’une solution de gestion de flotte mobile, à travers la mise en place de trois portails web. Concrètement, j’ai assuré la  synchronisation entre les personnes du marketing, l’équipe de développeurs ainsi que celle de la qualification, le tout en respectant bien entendu les délais, les coûts et les besoins exprimés initialement. Ensuite, j’ai également participé à la conception et à la spécification du produit. En parallèle, j’ai aussi supervisé les tests ainsi que la qualification.
+				</p>
+			</div>
+		</section>
+
+		<header class="content-head">
+			<h1>Que sais-je faire ?</h1>
+		</header>
+
+		<!-- Comme vous pouvez le voir, l'architecture du site reste très simple ! Cette seconde section présente les compétences que j'ai acquises au cours de mes expériences passées. -->
+		<section>
+			<div class="skill-group">
+				<div class="content-title">
+					<div class="separator">
+						<img src="computerSciencePicture.png" alt="computer-science-picture" id="skillPicture" class="title-picture">
+						<h2 id="competences">Développement</h2>
+					</div>
+				</div>
+				<ul class="skill-list">
+					<li class="skill" title="Lors de mon apprentissage, j'ai pu contribuer au développement d'une application Android existante. Il s'agissait d'un agent analytique capable d'apprendre des différents usages faits à partir des devices où il était déployé dans le but d'en dégager des recommandations. Je suis dans un premier temps intervenu pour mettre en place une brique fonctionnelle permettant de fournir ces connaissances à d'autres applications d'Orange, afin de leurs donner une dimension intelligente. De plus, qui dit collecte de données dit respect de la vie privée. C'est pour mettre en place un widget permettant de désactiver la collecte de chaque élément individuellement que je suis intervenu.">
+						<div class="skill">
+							<div class="skill-level text" id="android">Android</div>
+						</div>
+					</li>
+					<li class="skill">
+						<div class="skill">
+							<div class="skill-level text" id="java">Java</div>
+						</div>
+					</li>
+					<li class="skill">
+						<div class="skill">
+							<div class="skill-level text" id="html-css">HTML5/CSS3</div>
+						</div>
+					</li>
+					<li class="skill">
+						<div class="skill">
+							<div class="skill-level text" id="javascript">JavaScript</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+			<div class="skill-group">
+				<div class="content-title">
+					<div class="separator">
+						<img src="projectManagementPicture.png" alt="project-management-picture" id="projectManagementPicture" class="title-picture">
+						<h2>Gestion de projet</h2>
+					</div>
+				</div>
+				<ul class="skill-list">
+					<li class="skill">
+						<div class="skill">
+							<div class="skill-level text" id="moe">MOE</div>
+						</div>
+					</li>
+					<li class="skill">
+						<div class="skill">
+							<div class="skill-level text" id="conception-specification">Conception/Spécification</div>
+						</div>
+					</li>
+					<li class="skill">
+						<div class="skill">
+							<div class="skill-level text" id="team-management">Team management</div>
+						</div>
+					</li>
+					<li class="skill">
+						<div class="skill">
+							<div class="skill-level text" id="methodes-agiles">Méthodes agiles/SCRUM</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+			<div class="skill-group">
+				<div class="content-title">
+					<div class="separator">
+						<img src="designPicture.png" alt="design-picture" id="designPicture" class="title-picture">
+						<h2>Infographie</h2>
+					</div>
+				</div>
+				<ul class="skill-list">
+					<li class="skill">
+						<div class="skill">
+							<div class="skill-level text" id="design">Design</div>
+						</div>
+					</li>
+					<li class="skill">
+						<div class="skill">
+							<div class="skill-level text" id="photoshop">Adobe Photoshop CS5</div>
+						</div>
+					</li>
+					<li class="skill">
+						<div class="skill">
+							<div class="skill-level text" id="invision">Invision</div>
+						</div>
+					</li>
+					<li class="skill">
+						<div class="skill">
+							<div class="skill-level text" id="ergonomie">Ergonomie</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>				
+			
+		<header class="content-head">
+			<h1 id="recherche">Ce que je recherche</h1>
+		</header>
+		<!-- On a bientôt fini. (: Cette dernière section présente mes recherches pour octobre 2016 -->
+		<section>
+			<div class="my-research">
+				<p class="text">
+					Mon apprentissage se termine dès le 15 septembre. Je suis donc actuellement à la recherche d'un emploi, en tant que développeur Android Junior. En effet, j'ai eu l'opportunité de contribuer activement au développement d’une application Android riche lors de mon apprentissage. J’ai ainsi découvert une technologie qui m’intéresse énormément, c’est pourquoi j’aimerais en faire mon métier. Cela me permettra d'acquérir toujours plus de connaissance dans le domaine du développement mobile, tout en me permettant éventuellement d'évoluer par la suite.</br></br>
+
+					Ayant eu l'occasion de pratiquer des méthodes agiles telles que Scrum avec l'utilisation d'un dashboard collaboratif en ligne (trello) ainsi que le très répandu stand up meeting, j’ai su endosser le rôle du chef de projet. Bien entendu, j'étais également très actif au sein des différents échanges afin de m'assurer de respecter les besoins, les délais et les coûts exprimés par les personnes du Marketing, tout en m'assurant la faisabilité technique par les développeurs et en supervisant les tests ainsi que la qualification du produit. Cette expérience m’a convaincu de mon intérêt pour l’une des évolutions possibles : le rôle de chef de projet.</br></br>
+
+					Il s'agit ici de métiers où il me reste fort à apprendre, ce qui me permettra de statisfaire ma curiosité naturelle.</br></br>
+				</p>
+			</div>
+		</section>
+	</body>
+
+	<!-- Et voila la dernière balise, qui porte bien son nom ! Egalement introduite dans HTML5, elle permet, en complément du header, de conclure une section, un article, où encore une page entière comme ici. Voilà pour mon code, j'espère que vous avez apprécié la visite ! Si vous avez des questions et/ou des remarques, n'hésitez pas à me contacter ! Je vous répondrai avec grand plaisir. (: -->
+	<footer class="footer">
+		<p class="text footer-text">Retrouvez-moi en ligne</p>
+		<div class="social-icons">
+			<a title="Linkedin" href="https://fr.linkedin.com/in/kevinboeuf"><img src="linkedinPicture.png" alt="linkedin" class="footer-picture"/></a>
+			<a title="Viadeo" href="http://www.viadeo.com/p/00214oi4t0v6wp26/edit"><img src="viadeoPicture.png" alt="viadeo" class="footer-picture"/></a>
+			<a title="Github" href="https://github.com/kevinboeuf"><img src="githubPicture.png" alt="gitHub" class="footer-picture"/></a>
+			<a title="Facebook" href="https://www.facebook.com/kevin.boeuf.73"><img src="facebookPicture.png" alt="facebook" class="footer-picture"/></a>
+			<a title="Mail" href="mailto:kboeuf@gmail.com"><img src="mailPicture.png" alt="mail" class="footer-picture" id="mailingLink"/></a>
+		</div>
+	</footer>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+		  $(document).tooltip();
+		});
+	</script>
+</html> 
