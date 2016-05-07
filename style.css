@@ -37,6 +37,7 @@ header{
 p{
 	margin: 0px;
 	padding: 10px 0px;
+	font-size: 18px;
 }
 
 ul{
@@ -61,7 +62,6 @@ a{
 .text{
 	font-family: "Myriad Pro", arial;
 	font-weight: normal;
-	font-size: 18px;
 	color: #37474f;
 }
 
@@ -262,7 +262,6 @@ a{
 	text-align: justify;
 	margin: auto;
 	padding: 40px 40px 0;
-	padding-top: 30px;
 }
 
 @media screen and (max-width: 1150px) {
