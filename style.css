@@ -281,18 +281,3 @@ a{
   	padding: 40px 15px 0;
   }
 }
-
-@media screen and (max-device-width:480px){
-	p{
-		font-size: 36px;
-	}
-
-	.skill-level{
-		font-size: 36px;
-	}
-
-	.skill{
-		height: 45px;
-   		line-height: 45px;
-	}
-}
