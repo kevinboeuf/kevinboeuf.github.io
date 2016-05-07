@@ -61,6 +61,8 @@ a{
 .text{
 	font-family: "Myriad Pro", arial;
 	font-weight: normal;
+	font-size: 18px;
+	color: #37474f;
 }
 
 .header-text{
@@ -131,7 +133,6 @@ a{
 	background: #2f9fd6;
 	line-height: 30px;
 	margin: 20px auto;
-	color: white;
 	width: 100%;
 }
 
@@ -143,6 +144,7 @@ a{
 	background: #0b2a3a;
 	padding: 0px 5px;
 	font-size: 18px;
+	color: white;
 }
 
 .title-picture{
