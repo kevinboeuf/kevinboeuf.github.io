@@ -25,10 +25,10 @@
 		<!-- La balise nav a également fait son apparition avec HTML5. Elle permet de mettre des liens pour naviguer directement au sein du document, voire vers d'autres pages. -->
 		<nav class="header-links text header-text">
 			<ul>
-				<li><a href="#qui">Qui suis-je ?</a></li>
-				<li><a href="#competences">Que sais-je faire ?</a></li>
-				<li><a href="#recherche">Ce que je recherche</a></li>
-				<li><a title="Mail" href="mailto:kboeuf@gmail.com">Contactez moi !</a></li>
+				<li class="navigation-links"><a href="#qui">Qui suis-je ?</a></li>
+				<li class="navigation-links"><a href="#competences">Que sais-je faire ?</a></li>
+				<li class="navigation-links"><a href="#recherche">Ce que je recherche</a></li>
+				<li class="navigation-links"><a href="mailto:kboeuf@gmail.com">Contactez moi !</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -36,17 +36,16 @@
 
 		<!-- Comme je le disais, le header est aussi utilisé comme en-tête de section. Cette section là me présente. -->
 		<header class="content-head">
-			<h1 id="qui">Qui suis-je ?</h1>
+			<h1>Qui suis-je ?</h1>
 		</header>
 
 		<!-- La balise de section est aussi apparue avec HTML5 (héhé oui, il y en a des nouvelles choses intéressantes ! :-D). Pour faire simple, l'intéret d'une section, d'après les bonnes pratiques encore une fois, consiste à regrouper les éléments d'un même sujet dedans. C'est pour cette raison que j'ai utilisé des sections pour chacune des parties principales de mon site. On a donc une section pour me décrire, une pour mes compétences et une dernière pour ma recherche. --> 
 		<section>
 			<div class="learning-group">
 				<div class="content-title">
-					<div class="separator">
-						<img src="cursusPicture.png" alt="cursus-picture" id="cursusPicture" class="title-picture">
-						<h2>Mon cursus</h2>
-					</div>
+					<img src="cursusPicture.png" alt="cursus-picture" id="cursusPicture" class="title-picture"/>
+					<h2>Mon cursus</h2>
+					<div class="separator"></div>
 				</div>
 				<p class="text">
 					Je suis un ingénieur, apprenti chez Orange et scolarisé à l'ENSSAT de Lannion. J'ai eu l'opportunité d'accroitre mes connaissances du monde de l'informatique, domaine qui m'intéresse depuis longtemps.
@@ -62,10 +61,9 @@
 
 			<div class="learning-group">
 				<div class="content-title">
-					<div class="separator">
-						<img src="learningPicture.png" alt="learning-picture" id="learningPicture" class="title-picture">
-						<h2>Mon apprentissage</h2>
-					</div>
+					<img src="learningPicture.png" alt="learning-picture" id="learningPicture" class="title-picture"/>
+					<h2>Mon apprentissage</h2>
+					<div class="separator"></div>
 				</div>
 				<p class="text">
 					Lors de mes trois années d’apprentissage chez Orange, j’ai eu l’opportunité d’améliorer mes compétences en développement d’applications Android. En effet, j’ai contribué au développement d’une application intelligente, apprenant des différents usages des utilisateurs sur un device, pour ensuite leur suggérer les meilleures applications selon le contexte dans lequel ils se trouvent (localisation, connexions actives, horaire...).
@@ -84,10 +82,9 @@
 		<section>
 			<div class="skill-group">
 				<div class="content-title">
-					<div class="separator">
-						<img src="computerSciencePicture.png" alt="computer-science-picture" id="skillPicture" class="title-picture">
-						<h2 id="competences">Développement</h2>
-					</div>
+					<img src="computerSciencePicture.png" alt="computer-science-picture" id="skillPicture" class="title-picture"/>
+					<h2 id="competences">Développement</h2>
+					<div class="separator"></div>
 				</div>
 				<ul class="skill-list">
 					<!-- J'ai utilisé jQuery pour mes tooltips, en écrivant un message dans l'attribut title d'un élément HTML, jQuery récupère ces informations et les affiche dans l'infobulle. (: -->
@@ -116,10 +113,9 @@
 
 			<div class="skill-group">
 				<div class="content-title">
-					<div class="separator">
-						<img src="projectManagementPicture.png" alt="project-management-picture" id="projectManagementPicture" class="title-picture">
-						<h2>Gestion de projet</h2>
-					</div>
+					<img src="projectManagementPicture.png" alt="project-management-picture" id="projectManagementPicture" class="title-picture"/>
+					<h2>Gestion de projet</h2>
+					<div class="separator"></div>
 				</div>
 				<ul class="skill-list">
 					<li class="skill" title="Durant mon apprentissage à Orange Labs, j'ai pu découvrir ce rôle. J'ai eu pour objectif de synchroniser les besoin exprimés par les deux personnes du marketing avec une équipe de six développeurs, tout en supervisant la qualification réalisée par deux autres personnes. Cela implique bien entendu ma présence pour répondre aux questions lors du daily meeting qui était en place.">
@@ -147,10 +143,9 @@
 
 			<div class="skill-group">
 				<div class="content-title">
-					<div class="separator">
-						<img src="designPicture.png" alt="design-picture" id="designPicture" class="title-picture">
-						<h2>Infographie</h2>
-					</div>
+					<img src="designPicture.png" alt="design-picture" id="designPicture" class="title-picture"/>
+					<h2>Infographie</h2>
+					<div class="separator"></div>
 				</div>
 				<ul class="skill-list">
 					<li class="skill" title="J'ai toujours aimé l'aspect visuel lors du développement d'une application android ou d'un site web. J'aime concevoir, structurer et designer des éléments visuels. Par exemple, dans le cadre de la réalisation d'un jeu vidéo (Rush The Music), j'ai choisi d'être designer en plus de mon rôle de chef de projet au sein de l'équipe de six personnes. J'ai donc conçu et designé l'ensemble des menus et cinématiques du jeu. De plus, je suis en contact permanent avec une designer dans mon équipe, à orange. J'ai donc pu profiter de son expérience.">
