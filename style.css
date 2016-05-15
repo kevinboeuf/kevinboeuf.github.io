@@ -184,8 +184,8 @@ a{
 
 #header-text-summary{
 	display: inline-block;
+	margin: 0 10px;
 }
-
 
 #header-summary{
 	display: inline-block;
@@ -196,8 +196,8 @@ a{
 #header-photo{
 	width: 128px;
 	height: 128px;
-	margin-right: 5px;
 	display: inline-block;
+	margin-left: 10px;
 }
 
 #name{
