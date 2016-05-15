@@ -1,5 +1,5 @@
 body{
-	background-image: url("background.png");
+	background-image: url("background.jpg");
 	background-attachment: fixed;
 	margin: 0px;
 }
@@ -90,7 +90,7 @@ a{
 }
 
 .content-head{
-	background: rgba(32, 121, 165, 0.35);
+	background: rgba(11, 42, 58, 0.85);
 	text-align: center;
 	padding: 20px;
 }
@@ -163,7 +163,7 @@ a{
 }
 
 .footer{
-	background: rgba(32, 121, 165, 0.35);
+	background: rgba(11, 42, 58, 0.85);
 	text-align: center;
 	padding: 20px;
 }
