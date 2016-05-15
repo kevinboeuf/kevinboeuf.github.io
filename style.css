@@ -268,7 +268,12 @@ a{
 @media screen and (max-width: 1150px) {
   .navigation-links{
   	display: list-item;
-  	padding: 0px;
+  	padding: 5px;
+  	border-bottom: #edd98a solid 1px;
+  }
+
+  #contact-link{
+  	border-bottom: none;
   }
 }
 
