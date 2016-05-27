@@ -180,11 +180,13 @@ a{
 
 #header-text-summary > p{
 	margin: 5px auto;
+	vertical-align: middle;
 }
 
 #header-text-summary{
 	display: inline-block;
 	margin: 0 10px;
+	vertical-align : middle;
 }
 
 #header-summary{
@@ -198,6 +200,7 @@ a{
 	height: 128px;
 	display: inline-block;
 	margin-left: 10px;
+	vertical-align: middle;
 }
 
 #name{
